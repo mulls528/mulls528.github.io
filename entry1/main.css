@@ -1,0 +1,77 @@
+body {background-color: rgb(242, 239, 226)}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramond.woff2') format('woff2'), url('fonts/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Champion';
+    src: url('Champion-HTF-Heavyweight.woff2') format('woff2'),
+        url('Champion-HTF-Heavyweight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+img {
+    width:600px; 
+    margin-top: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;;
+}
+div {
+    text-align: center}
+
+h1{
+    line-height: 15px;
+    font-size: 200px; 
+    color:rgb(236, 91, 33); 
+    font-family:'Apple Garamond'
+}
+
+h2{
+    line-height: 15px;
+    font-size: 80px; 
+    color:rgb(236, 91, 33); 
+    font-family:'Apple Garamond';
+    font-style: italic;
+}
+.m1{
+    background-color:rgb(228, 175, 205);
+    
+}
+.m1{
+    font-size: 50px; 
+    color:rgb(236, 91, 33); 
+    font-family:'Champion';
+    direction: left;
+}
+.m2{
+    background-color:rgb(236, 91, 33);
+}
+.m2{
+    font-size: 50px; 
+    color:rgb(228, 175, 205); 
+    font-family:'Champion';
+    direction: right;
+}
+p1{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Apple Garamond";
+    font-size: 14px;
+
+}
