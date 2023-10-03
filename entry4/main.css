@@ -1,0 +1,189 @@
+body {background-color: rgb(242, 239, 226)}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramond.woff2') format('woff2'), url('fonts/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Champion';
+    src: url('Champion-HTF-Heavyweight.woff2') format('woff2'),
+        url('Champion-HTF-Heavyweight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.hover{
+    line-height: 140px;
+    font-size: 160px;
+    width: 65%;
+    color: rgb(236, 91, 33);
+    font-family: 'Champion';
+    position: 99% 50%;
+
+}
+.hover:hover{
+    color:rgb(248, 214, 233)
+}
+body{
+    background-image: url('images/friends-of-friends-feast.jpeg');
+    background-repeat: no-repeat;
+    background-position: 810px 150px;
+    background-size: 40%;
+
+}
+  
+  .marquee {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(236, 91, 33);
+    font-family:'Apple Garamond';
+    font-style: italic;
+    color: rgb(248, 214, 233);
+    font-size: 30px;
+    white-space: nowrap;
+  }
+  
+  .marquee--inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marquee 25s linear infinite;
+  }
+  
+  span {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  h2{
+    font-family: 'Apple Garamond';
+    color:rgb(236, 91, 33);
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .paragraph-container {
+    overflow: hidden; 
+  }
+  
+  .left-paragraph {
+    float: left;
+    width: 35%; 
+    padding-left: 200px;
+    font-size: 22px;
+    font-family: 'Apple Garamond';
+    color:rgb(236, 91, 33);
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .right-paragraph {
+    float: right;
+    width: 35%; 
+    padding-right: 200px;
+    font-size: 22px;
+    font-family: 'Apple Garamond';
+    color:rgb(236, 91, 33);
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .image-container img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  h3{
+    font-family: 'Champion';
+    font-size: 50px;
+    color:rgb(236, 91, 33);
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 45px;
+  }
+  h3:hover{
+    color:rgb(248, 214, 233);
+  }
+  .notes{
+    font-family: 'Champion';
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+    text-align: center;
+  }
+  .sporadic-laughter:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .shoes:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .forks:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .breaks:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .drippings:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  p2{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 100px;
+    padding-top: 200px;
+    padding-left: 50px;
+  }
+  p3{
+    font-family: 'Champion';
+    color:rgb(242, 239, 226);
+    font-size: 60px;
+    padding-left: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(236, 91, 33);
+  }
+  #composite{
+    width: 100%;
+  }
