@@ -8,16 +8,16 @@ body {background-color: rgb(242, 239, 226)}
 }
 @font-face {
     font-family: 'Apple Garamond';
-    src: url('AppleGaramondLight-Italic.woff2') format('woff2'),
-        url('AppleGaramondLight-Italic.woff') format('woff');
+    src: url('fonts/AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('fonts/AppleGaramondLight-Italic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
 }
 @font-face {
     font-family: 'Champion';
-    src: url('Champion-HTF-Heavyweight.woff2') format('woff2'),
-        url('Champion-HTF-Heavyweight.woff') format('woff');
+    src: url('fonts/Champion-HTF-Heavyweight.woff2') format('woff2'),
+        url('fonts/Champion-HTF-Heavyweight.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
