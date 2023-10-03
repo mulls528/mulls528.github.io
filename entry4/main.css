@@ -187,3 +187,11 @@ body{
   #composite{
     width: 100%;
   }
+  #checkers{
+  width: 100%;  
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  #final-remarks{
+    width: 100%;
+  }
