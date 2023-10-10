@@ -121,12 +121,21 @@ body{
     font-family: 'Apple Garamond';
     color:rgb(236, 91, 33);
   }
+  .normal{
+    text-align: right;
+    float: right;
+    width: 35%; 
+    padding-right: 200px;
+    font-size: 22px;
+    font-family: 'Apple Garamond';
+  }
 
- .center {
-  display: block;
-  margin-left: 50%;
-  margin-right: 50%;
-  width: 50%;
+  .image-container img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
 }
 
   h3{
@@ -231,4 +240,5 @@ body{
   }
   #final-remarks{
     width: 100%;
+    padding-left: -50px;
   }
