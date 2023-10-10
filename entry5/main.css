@@ -208,31 +208,19 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color:rgb(236, 91, 33);
   }
-  .column {
-    float: left;
-    width: 17%;
-    padding: 15px;
-    font-family: 'Apple Garamond';
-    font-style: italic;
-    color: rgb(236, 91, 33);
-    font-size: 20px;
-  }
-  #cup{
-    padding-left: 0px;
-  }
-  #chair{
-    padding-right: 5px;
-  }
-  #menu {
-    padding-left: 0px;
-  }
-  .row {
-    content: "";
-    clear: both;
-    display: table;
-    padding-bottom: 50px;
-    padding-left: 25px;
-  }
+    .container {
+      display: flex;
+      justify-content: flex-start;
+      padding:10px;
+      min-height: 300px;
+      font-size:  30px;
+      text-align:  center;
+      font-family: 'Apple Garamond';
+      font-style: italic;
+      color:rgb(236, 91, 33);
+      
+    }
+
   .checkers {
     width: 50%;
     position: relative;
