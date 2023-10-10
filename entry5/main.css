@@ -230,14 +230,24 @@ body{
     content: "";
     clear: both;
     display: table;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     padding-left: 25px;
   }
-  #checkers{
-  width: 100%;  
-  margin-left: 0px;
-  margin-right: 0px;
-  }
+  .checkers {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+}
+.checkers .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.checkers:hover .img-top {
+    display: inline;
+}
   #final-remarks{
     width: 100%;
     padding-left: -50px;
