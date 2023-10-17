@@ -23,8 +23,8 @@ body {background-color: rgb(242, 239, 226)}
     font-display: swap;
 }
 .hover{
-    line-height: 140px;
-    font-size: 160px;
+    line-height: 1;
+    font-size: 10vw;
     width: 65%;
     color: rgb(236, 91, 33);
     font-family: 'Champion';
@@ -87,55 +87,51 @@ body{
     text-align: center;
     padding-top: 50px;
   }
-  .paragraph-container {
-    overflow: hidden; 
-  }
-  
-  .left-paragraph {
-    float: left;
-    width: 35%; 
-    padding-left: 200px;
-    font-size: 22px;
+  .paragraph-container{
+    display: flex;
+    padding: 50px;
+    font-size:22px;
     font-family: 'Apple Garamond';
     color:rgb(236, 91, 33);
     text-align: justify;
     text-justify: inter-word;
+    align-items: flex-start, center;
+    justify-content: center;
+    margin-top: 30px;
+
+  }
+  .left-paragraph {
+    display: flex;
+    width: 35%; 
+    padding-left: 50px; 
+    padding-right: 50px;
   }
 
   .right-paragraph {
-    float: right;
+    display: flex;
     width: 35%; 
-    padding-right: 200px;
-    font-size: 22px;
-    font-family: 'Apple Garamond';
-    color:rgb(236, 91, 33);
-    text-align: justify;
-    text-justify: inter-word;
+    padding-left: 50px; 
+    padding-right: 50px;
   }
-  .right-align {
-    text-align: right;
-    float: right;
-    width: 35%; 
-    padding-right: 200px;
-    font-size: 22px;
-    font-family: 'Apple Garamond';
-    color:rgb(236, 91, 33);
+  @media (max-width: 768px){
+  .paragraph-container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column; 
   }
-  .normal{
-    text-align: right;
-    float: right;
-    width: 35%; 
-    padding-right: 200px;
-    font-size: 22px;
-    font-family: 'Apple Garamond';
-  }
+.left-paragraph, .right-paragraph {
+  width:100%;
+  margin-bottom:50px;
+  padding:0;
+}
+}
 
   .image-container img {
-    width: 30%;
+    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
   h3{
@@ -196,47 +192,42 @@ body{
     font-family: 'Apple Garamond';
     font-style: italic;
     color:rgb(236, 91, 33);
-    font-size: 100px;
+    font-size: 8vw;
     padding-top: 200px;
-    padding-left: 50px;
+    padding-left: 5%;
   }
   p3{
     font-family: 'Champion';
     color:rgb(242, 239, 226);
-    font-size: 60px;
-    padding-left: 50px;
+    font-size: 5vw;
+    padding-left: 5%;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color:rgb(236, 91, 33);
   }
+
     .container {
       display: flex;
       justify-content: flex-start;
       padding:10px;
       min-height: 300px;
-      font-size:  30px;
+      
+    }
+    .caption {
+      font-size:  20px;
       text-align:  center;
       font-family: 'Apple Garamond';
       font-style: italic;
       color:rgb(236, 91, 33);
-      
     }
-
-  .checkers {
-    width: 50%;
-    position: relative;
-    display: inline-block;
-}
-.checkers .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.checkers:hover .img-top {
-    display: inline;
-}
+    .item3 {
+      padding-right: 8%;
+      padding-top: 5%;
+    }
+    #checkers{
+      width: 100%;  
+      margin-left: 0px;
+      margin-right: 0px;
+      }
   #final-remarks{
     width: 100%;
-    padding-left: -50px;
   }
