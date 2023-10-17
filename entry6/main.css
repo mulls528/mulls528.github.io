@@ -140,6 +140,10 @@ body {background-color: rgb(242, 239, 226)}
     margin-right: auto;
     padding: 70px;
 }
+img:hover {
+  -webkit-transform: rotate(15deg) scale(1);
+  transition: all 1s ease;
+}
 
   h3{
     font-family: 'Champion';
