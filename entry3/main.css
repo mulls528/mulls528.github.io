@@ -85,7 +85,7 @@ h2{
     padding-top: 10%;
 }
 .bottom2{
-    font-size: 5vh; 
+    font-size: 4vh; 
     display: block;
     color:rgb(236, 91, 33); 
     font-family:'Apple Garamond';
@@ -93,17 +93,19 @@ h2{
 }
 .tables {
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     margin-left: 15vh;
+    justify-content: center; /* Horizontally center the flex items */
+    align-items: center;
   }
   .tables2 {
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center; /* Horizontally center the flex items */
+    align-items: center;
   }
 #water {
-padding-right: 50px;
+margin-right: 50%;
 }
 .p3{
     text-align: center;
