@@ -76,6 +76,35 @@ h2{
     padding-left: 20%;
     padding-right: 20%;
 }
+.bottom{
+    font-family: 'Champion';
+    color:rgb(236, 91, 33);
+    font-size: 12vh;
+    text-align: center;
+    line-height: 1;
+    padding-top: 10%;
+}
+.bottom2{
+    font-size: 5vh; 
+    display: block;
+    color:rgb(236, 91, 33); 
+    font-family:'Apple Garamond';
+    font-style: italic;
+}
+.tables {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 15vh;
+  }
+  .tables2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+#water {
+padding-right: 50px;
+}
 .p3{
     text-align: center;
     font-family: "Apple Garamond";
