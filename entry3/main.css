@@ -22,7 +22,9 @@ body {background-color: rgb(242, 239, 226); cursor: url('imgs/cursor.png'), auto
     font-style: normal;
     font-display: swap;
 }
-
+body {
+    cursor: url('cursor.png'),auto;
+  }
 img {
     width:600px; 
     margin-top: 100px;
@@ -94,19 +96,14 @@ h2{
 .tables {
     display: flex;
     flex-direction: row;
-    margin-left: 15vh;
     justify-content: center; /* Horizontally center the flex items */
     align-items: center;
+    padding-left: 30px;
   }
-  .tables2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Horizontally center the flex items */
-    align-items: center;
-  }
-#water {
-margin-right: 50%;
+.item1 {
+margin-right: 70px;
 }
+
 .p3{
     text-align: center;
     font-family: "Apple Garamond";
