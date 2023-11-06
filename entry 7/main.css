@@ -1,0 +1,282 @@
+body {background-color: rgb(242, 239, 226)}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramond.woff2') format('woff2'), url('fonts/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('fonts/AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Champion';
+    src: url('fonts/Champion-HTF-Heavyweight.woff2') format('woff2'),
+        url('fonts/Champion-HTF-Heavyweight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .item {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}
+ 
+.start {
+    height: 100px;
+}
+ 
+.end {
+    height: 500px;
+}
+  
+  @keyframes spinType {
+    0% {
+      transform: rotate(0.5turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  
+  @keyframes yinyangSpin {
+    0% {
+      transform: rotate(0turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  
+  #svg {
+    animation: yinyangSpin 5s infinite;
+    height:250px;
+  }
+  
+  #svg:hover {
+    animation-play-state: paused;
+  }
+  
+.hover{
+    line-height: 9vw;
+    font-size: 10vw;
+    width: 65%;
+    color: rgb(236, 91, 33);
+    font-family: 'Champion';
+    display: flex;
+    align-items: left;
+
+}
+.hover:hover{
+    color:rgb(248, 214, 233)
+}
+body{
+    background-image: url('images/meeting.jpg');
+    background-repeat: no-repeat;
+    background-position: 810px 150px;
+    background-size: 40%;
+}
+  
+  .marquee {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(236, 91, 33);
+    font-family:'Apple Garamond';
+    font-style: italic;
+    color: rgb(248, 214, 233);
+    font-size: 30px;
+    white-space: nowrap;
+  }
+  
+  .marquee--inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marquee 25s linear infinite;
+    kerning: 60;
+  }
+  
+  span {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  h2{
+    font-family: 'Apple Garamond';
+    color:rgb(236, 91, 33);
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .paragraph-container{
+    display: flex;
+    padding: 50px;
+    font-size:22px;
+    font-family: 'Apple Garamond';
+    color:rgb(236, 91, 33);
+    text-align: justify;
+    text-justify: inter-word;
+    align-items: flex-start, center;
+    justify-content: center;
+    margin-top: 30px;
+
+  }
+  .left-paragraph {
+    display: flex;
+    width: 35%; 
+    padding-left: 50px; 
+    padding-right: 50px;
+  }
+
+  .right-paragraph {
+    display: flex;
+    width: 35%; 
+    padding-left: 50px; 
+    padding-right: 50px;
+  }
+  @media (max-width: 768px){
+  .paragraph-container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column; 
+  }
+.left-paragraph, .right-paragraph {
+  width:100%;
+  margin-bottom:50px;
+  padding:0;
+}
+}
+
+  .image-container img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+  h3{
+    font-family: 'Champion';
+    font-size: 50px;
+    color:rgb(236, 91, 33);
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 45px;
+  }
+  h3:hover{
+    color:rgb(248, 214, 233);
+  }
+  .notes{
+    font-family: 'Champion';
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+    text-align: center;
+  }
+  .aloof:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .sweaty:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .darting:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .pauses:hover{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 30px;
+  }
+  .spotify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  p2{
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color:rgb(236, 91, 33);
+    font-size: 8vw;
+    padding-top: 200px;
+    padding-left: 5%;
+  }
+  p3{
+    font-family: 'Champion';
+    color:rgb(242, 239, 226);
+    font-size: 5vw;
+    padding-left: 5%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:rgb(236, 91, 33);
+  }
+
+    .container {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      padding:10px;
+      min-height: 300px;
+      
+    }
+    .caption {
+      font-size:  20px;
+      text-align:  center;
+      font-family: 'Apple Garamond';
+      font-style: italic;
+      color:rgb(236, 91, 33);
+    }
+.item2{
+    margin-left: -10;
+}
+.item3{
+margin-left: -20;
+}
+    #checkers{
+      width: 100%;  
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 30vh;
+      }
