@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="main.css" rel="stylesheet">
+  <title>Click Image for Random Message</title>
+</head>
+<body>
+    <div class="h1">
+<h1> HAPPY BIRTHDAY! </h1>
+</div>
+
+<div class="marquee">
+    <div class="marquee--inner">
+      <span>
+        <div> click the cake to reveal your super special birthday wish &nbsp;</div>
+      </span>
+      <span>
+        <div> click the cake to reveal your super special birthday wish &nbsp;</div>
+      </span>
+    </div>
+  </div>
+
+<div class="container" id="image-container">
+  <img class="centered-image" src="cake.png" alt="Click me">
+  <div id="message-container"></div>
+</div>
+<script>
+  // Function to generate a random message
+  function getRandomMessage() {
+    var messages = [
+      'FOR MORE TIME',
+      'FOR SUNNIER DAYS',
+      'FOR LONG NAPS',
+      'FOR SUSTAINING JOY',
+      'FOR DEEP BELLY LAUGHS',
+      'FOR NEW IDEAS',
+      'FOR DEEP TALKS',
+      'FOR BIG HUGS',
+      'FOR DEEPER BREATHS',
+      'FOR SILLIER JOKES'
+    ];
+
+    var randomIndex = Math.floor(Math.random() * messages.length);
+    return messages[randomIndex];
+  }
+
+  // Function to handle click on the image container
+  function handleImageContainerClick() {
+    var randomMessage = getRandomMessage();
+
+    // Display the message in the message container
+    var messageContainer = document.getElementById('message-container');
+    messageContainer.textContent = randomMessage;
+    messageContainer.style.display = 'block';
+
+    // Hide the message after a delay (e.g., 2 seconds)
+    setTimeout(function() {
+      messageContainer.style.display = 'none';
+    }, 5000);
+  }
+
+  // Add click event listener to the image container
+  var imageContainer = document.getElementById('image-container');
+  imageContainer.addEventListener('click', handleImageContainerClick);
+</script>
+
+</body>
+
+</html>

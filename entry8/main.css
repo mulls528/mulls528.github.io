@@ -1,0 +1,95 @@
+body {background-color: rgb(242, 239, 226);}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramond.woff2') format('woff2'), url('fonts/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('fonts/AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Champion';
+    src: url('fonts/Champion-HTF-Heavyweight.woff2') format('woff2'),
+        url('fonts/Champion-HTF-Heavyweight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.h1{
+    line-height: 1;
+    font-size: 5vw;
+    color: rgb(236, 91, 33);
+    font-family: 'Champion';
+    text-align: center;
+}
+.marquee {
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(236, 91, 33);
+    font-family:'Apple Garamond';
+    font-style: italic;
+    color: rgb(248, 214, 233);
+    font-size: 30px;
+    white-space: nowrap;
+  }
+  
+  .marquee--inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    animation: marquee 25s linear infinite;
+    kerning: 60;
+  }
+  
+  span {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+}
+
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10vh;
+      }
+  
+      /* Style for the message container */
+      #message-container {
+        position: absolute;
+        top: 140%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        background-color:rgb(236, 91, 33);
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        font-family: 'Champion';
+        color:rgb(248, 214, 233);
+        font-size: 30px;
+      }
