@@ -1,4 +1,4 @@
-body {background-color: rgb(242, 239, 226); cursor: url('imgs/cursor.png'), auto;}
+body {background-color: rgb(242, 239, 226); }
 @font-face {
     font-family: 'Apple Garamond';
     src: url('fonts/AppleGaramond.woff2') format('woff2'), url('fonts/AppleGaramond.woff') format('woff');
