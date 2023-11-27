@@ -1,0 +1,29 @@
+[
+{"image": "assets/bill.png",
+"name": "bill"
+},
+{"image": "assets/bread.png",
+"name": "bread"
+},
+{"image": "assets/butter.png",
+"name": "butter"
+},
+{"image": "assets/cake.png",
+"name": "cake"
+},
+{"image": "assets/chair.png",
+"name": "chair"
+},
+{"image": "assets/dishes.png",
+"name": "dishes"
+},
+{"image": "assets/flag.png",
+"name": "flag"
+},
+{"image": "assets/gift.png",
+"name": "gift"
+},
+{"image": "assets/plate.png",
+"name": "plate"
+}
+]
