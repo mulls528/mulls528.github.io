@@ -32,8 +32,17 @@ body {background-color: rgb(242, 239, 226)}
       width: 100%;
       height: auto;
       object-fit:cover;
+      z-index: -2;
     }
-    
+    .text-overlay{
+      font-family: 'Champion';
+      color:rgb(236, 91, 33);
+      font-size: 12vh;
+      position: absolute;
+      top: 20%;
+      text-align: center;
+      line-height: 1;
+    }
   
   h2{
     font-family: 'Apple Garamond';
@@ -133,10 +142,13 @@ body {background-color: rgb(242, 239, 226)}
 
   .image-container{
     width: 20%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     padding: 70px;
+
 }
 .invite:hover {
   -webkit-transform: rotate(15deg) scale(1);

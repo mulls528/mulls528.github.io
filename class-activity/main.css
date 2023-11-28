@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+}
+.time{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 45vh;
+}
+.wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
