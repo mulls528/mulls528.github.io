@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramond.woff2') format('woff2'), url('fonts/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('fonts/AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('fonts/AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Champion';
+    src: url('fonts/Champion-HTF-Heavyweight.woff2') format('woff2'),
+        url('fonts/Champion-HTF-Heavyweight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    background: rgb(242, 239, 226);
+}
+h1 {
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    color: rgb(236, 91, 33);
+    font-size: 16vh;
+    text-align: center;
+}  
+h2{
+    font-family: 'Apple Garamond';
+    color: rgb(236, 91, 33);
+    font-size: 4vh;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    /* Style for the blob */
+    .blob {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(242, 239, 226);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%; /* Adjust blob position as needed */
+        left: 50%; /* Adjust blob position as needed */
+        transform: translate(-50%, -50%);
+      }
