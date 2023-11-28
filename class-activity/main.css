@@ -13,3 +13,7 @@ body{
     align-items: center;
 
 }
+.button{
+    border-radius: 50%;
+    width: 50px;
+}

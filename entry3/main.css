@@ -100,7 +100,22 @@ body a:visited {
     font-family:'Apple Garamond';
     font-style: italic;
 }
-.tables {
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Horizontally center the flex items */
+    align-items: center;
+    padding-left: 30px;
+    width: 50%;
+  }
+  .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Horizontally center the flex items */
+    align-items: center;
+    padding-left: 30px;
+  }
+  .row3{
     display: flex;
     flex-direction: row;
     justify-content: center; /* Horizontally center the flex items */
