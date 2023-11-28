@@ -1,0 +1,33 @@
+body{
+    background-color: blue;
+}
+.time{
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items:center;
+    gap:0px;
+
+}
+button{
+    border-radius: 30px;
+    font-size: 100px;
+    width: 50%;
+    background-color: pink;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+
+}
+
+.othertext{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px; 
+    margin-top: 25%;
+}
