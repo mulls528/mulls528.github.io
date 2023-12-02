@@ -30,7 +30,7 @@ h1 {
     color: rgb(236, 91, 33);
     font-size: 16vh;
     text-align: center;
-}
+}  
 h2{
     font-family: 'Apple Garamond';
     color: rgb(236, 91, 33);
@@ -40,75 +40,23 @@ h2{
     padding-left: 50px;
     padding-right: 50px;
 }
-p{
-    font-family: 'Champion';
-    font-size: 30px;
-    color:rgb(236, 91, 33);
-}
-.actions{
-    display: flex;
+h3{font-family: 'Apple Garamond';
+    color: rgb(236, 91, 33);
+    font-size: 4vh;
+    text-align: center;
     justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 80px;
 }
-.actions button{
-    padding: 8px 16px;
-    font-size: 30px;
-    border-radius: 10px;
-    border-color:rgb(236, 91, 33) ;
-    background-color: rgb(236, 91, 33);
-    color: rgb(242, 239, 226); 
-}
-.grid-container {
-    display: grid;
-    justify-content: center;
-    grid-gap: 16px;
-    grid-template-columns: repeat(6, 140px);
-    grid-template-rows: repeat(2, calc(140px / 2 * 3));
-  }
-  
-  .card {
-    height: calc(140px / 2 * 3);
-    width: 140px;
-    border-radius: 10px;
-    border-color:rgb(236, 91, 33) ;
-    background-color: rgb(236, 91, 33);
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .front-image {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .card.flipped {
-    transform: rotateY(180deg);
-  }
-  
-  .front, .back {
-      backface-visibility: hidden;
-      position: absolute;
-      border-radius: 10px;
-      border-color:rgb(236, 91, 33);
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-  }
-  
-  .card .front {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card .back {
-    background-image: url("");
-    background-position: center center;
-    background-size: cover;
-    backface-visibility: hidden;
-  }
-  
-  .card .front {
-    transform: rotateY(180deg);
-  }
+    /* Style for the blob */
+    .blob {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(242, 239, 226);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%; /* Adjust blob position as needed */
+        left: 50%; /* Adjust blob position as needed */
+        transform: translate(-50%, -50%);
+      }

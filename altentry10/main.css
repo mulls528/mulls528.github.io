@@ -40,6 +40,16 @@ h2{
     padding-left: 50px;
     padding-right: 50px;
 }
+h3{font-family: 'Apple Garamond';
+    color: rgb(236, 91, 33);
+    font-size: 4vh;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 80px;
+
+}
     /* Style for the blob */
     .blob {
         width: 100px;

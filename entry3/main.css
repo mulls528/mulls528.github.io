@@ -106,7 +106,7 @@ body a:visited {
     justify-content: center; /* Horizontally center the flex items */
     align-items: center;
     padding-left: 30px;
-    width: 50%;
+    gap: 0;
   }
   .row2{
     display: flex;
@@ -123,9 +123,60 @@ body a:visited {
     padding-left: 30px;
   }
 .item1 {
+    padding-left: 50px;
 cursor: url(cursor3.png), auto;
-margin-right: 70px;
 }
+.item4{
+    padding-left: 80px;
+}
+.item7 {
+    padding-left:-20px;
+}  
+.item6{
+    padding-right: 100px;
+}
+.item8 {
+    padding-right: 180px;
+}
+.item9{
+    padding-right: 60px;
+}
+  .item1:hover {
+    transform: rotate(15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item2:hover {
+    transform: rotate(-15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item3:hover {
+    transform: rotate(15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item4:hover {
+    transform: rotate(-15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item5:hover {
+    transform: rotate(15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item6:hover {
+    transform: rotate(-15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item7:hover {
+    transform: rotate(15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item8:hover {
+    transform: rotate(-15deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
+  .item9:hover {
+    transform: rotate(360deg); 
+    transition: transform 0.5s ease;/* Adjust the rotation angle as needed */
+  }
 
 .p3{
     text-align: center;
