@@ -22,6 +22,55 @@ body {background-color: rgb(242, 239, 226)}
     font-style: normal;
     font-display: swap;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.item {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  padding: 10px 0px;
+}
+
+.start {
+  height: 100px;
+}
+
+.end {
+  height: 500px;
+}
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes yinyangSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+#svg {
+  animation: yinyangSpin 5s infinite;
+  height:250px;
+}
+
+#svg:hover {
+  animation-play-state: paused;
+}
 .hover{
     line-height: 140px;
     font-size: 160px;
