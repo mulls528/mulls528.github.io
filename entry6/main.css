@@ -269,18 +269,14 @@ body {background-color: rgb(242, 239, 226)}
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color:rgb(236, 91, 33);
   }
-    .container {
-      display: flex;
-      justify-content: flex-start;
-      padding:10px;
-      min-height: 300px;
-      font-size:  23px;
-      text-align:  left;
-      font-family: 'Apple Garamond';
-      font-style: italic;
-      color:rgb(236, 91, 33);
-      
-    }
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding:10px;
+    min-height: 300px;
+    
+  }
 
   .checkers {
     position: relative;

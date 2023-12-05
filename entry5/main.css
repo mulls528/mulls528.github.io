@@ -254,13 +254,14 @@ body{
     -webkit-text-stroke-color:rgb(236, 91, 33);
   }
 
-    .container {
-      display: flex;
-      justify-content: flex-start;
-      padding:10px;
-      min-height: 300px;
-      
-    }
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding:10px;
+    min-height: 300px;
+    
+  }
     .caption {
       font-size:  20px;
       text-align:  center;
